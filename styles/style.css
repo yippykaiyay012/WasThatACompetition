@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #282828;
+}
+
+.title {
+    color: #d1d1d1;
+    text-align: center;
+}
+
+.result-box {
+    background-color: #000000;
+    color: #d1d1d1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
