@@ -6,7 +6,7 @@ button.addEventListener("click", postData);
 function postData(){
 
     let text = document.getElementById("text-data").value;
-    fetch( 'https://localhost:7143/?value=' + text , {
+    fetch( 'https://bsite.net/ryan012/?value=' + text , {
             method: "POST", 
             body: JSON.stringify(text)
           })
