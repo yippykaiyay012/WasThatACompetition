@@ -3,3 +3,4 @@ fetch( 'https://bsite.net/ryan012/' )
     .then( response => {
         document.getElementById("result-text").innerText = response.result;
     } );
+
